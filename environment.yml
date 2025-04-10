@@ -1,4 +1,4 @@
-name: MRI_4D
+name: Profile_3D
 channels:
   - anaconda
   - conda-forge
