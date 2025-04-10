@@ -16,10 +16,10 @@ from scipy import interpolate
 
 #-----------------------------------------------------------------------------------------------------------------------
 ## Options
-Name = 'HM_04_FJA_ori' # name of the case
-profilesDir = r'D:/InletProfileStudy/ReadandScale/scaling/' + Name + '/'  # path to the folder containing the resampled .vtp files
-geoDir = r'D:/InletProfileStudy/ReadandScale/stl/Workflow/' + Name + '_aorta.stl' # path to the aorta stl file for aligning directions
-outputDir = r'D:/InletProfileStudy/SolverOutput/output/' + Name + '/'
+Name = 'test' # name of the case
+profilesDir = r'D:/Scaled/' + Name + '/'  # path to the folder containing the resampled .vtp files
+geoDir = r'D:/stl/' + Name + '_aorta.stl' # path to the aorta stl file for aligning directions
+outputDir = r'D:/SolverOutput/output/' + Name + '/'
 
 cfd_delta_t = 0.001  # simulation time steps
 cardiac_cycle_period = 0.82 # period of cardiac cycle
