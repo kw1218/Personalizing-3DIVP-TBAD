@@ -12,10 +12,10 @@ import vtk
 
 #---------------------------------------------------------Set path--------------------------------------------------------
 ## Options
-saveName = 'HM_04_FJA_ori'   # filename of resamples .vtp files
-outputDir = r'D:/InletProfileStudy/ReadandScale/mapped/' + saveName  # path for saving resampled .vtp files
-source_profile_dir = r'J:\Onedrive\OneDrive - Imperial College London\GitHub\IVP\Personalizing-3DIVP-TBAD\Profiles\Case01'  # path to the selected synthetic IVP folder
-target_profile_fn = r'D:/InletProfileStudy/ReadandScale/stl/Workflow/' + saveName + '_inlet.stl'  #  path to the stl file of the target plane
+saveName = 'Test'   # filename of resamples .vtp files
+outputDir = r'D:/mapped/' + saveName  # path for saving resampled .vtp files
+source_profile_dir = r'D:\Profiles\Case01'  # path to the selected synthetic IVP folder
+target_profile_fn = r'D:/stl/' + saveName + '_inlet.stl'  #  path to the stl file of the target plane
 flip_normals = False # usually set to True, but might have to change depending on target plane orientation
 os.makedirs(outputDir,exist_ok=True)
 
