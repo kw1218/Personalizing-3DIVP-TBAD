@@ -1,13 +1,13 @@
 # Important Update!
 In the paper, the Pearson Correlation plot for Flat (Figure 8) is uploaded with a mistake. The correct figure is shown below. 
-![alt text](asset/PearsonCorrelation.PNG)
+![PearsonCorrelation](https://github.com/user-attachments/assets/70388e6e-bb93-4946-91ea-7a4f6eea062e)
 
 # Personalizing-3DIVP-TBAD
 This code is used to personalize synthetic 3D IVPs for computational studies in TBAD. <br>
 Workflow for applying synthetic IVPs:
 ![alt text](asset/Slide1.PNG)
 
-## Seclet a waveform  
+## Select a waveform  
 Select an appraporiate inlet flow waveform based on stoke volume (SV) and systole-to-disatole ratio (SDR). 
 ![alt text](asset/Slide2.PNG)
 
