@@ -1,6 +1,6 @@
 # Important Update!
 In the paper, the Pearson Correlation plot for Flat (Figure 8) is uploaded with a mistake. The correct figure is shown below. 
-![TBAD 02](https://github.com/user-attachments/assets/d1de0cb3-8cf7-4e18-81bb-44a4adbe78ea)
+![alt text](asset/PearsonCorrelation.PNG)
 
 # Personalizing-3DIVP-TBAD
 This code is used to personalize synthetic 3D IVPs for computational studies in TBAD. <br>
