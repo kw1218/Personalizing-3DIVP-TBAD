@@ -10,7 +10,6 @@ pv.set_plot_theme("Document")
 import matplotlib
 matplotlib.use('Qt5Agg')
 import matplotlib.pyplot as plt
-from sklearn.decomposition import PCA, FastICA
 import descriptors_utils as dut
 from scipy import interpolate
 from collections import deque
@@ -25,7 +24,7 @@ time_intp_options = {
     'num_frames_fxd': 20}
 
 Number = 20 #### Adjust this number [0-29] to ensure the same SDR between profile and synthetic flowwaveform ####
-Name = 'HM_04_FJA_ori'  # name of the patient
+Name = 'test'  # name of the patient
 patient_specific_4D = True   # True: point by point scaling; False: general scaling
 preprocDir = r'D:/InletProfileStudy/ReadandScale/mapped' # Path to mapped .vtp files from inlet_mapping.py
 csv_path = r'J:\Onedrive\OneDrive - Imperial College London\GitHub\IVP\Personalizing-3DIVP-TBAD\Inlet Flow Waveform\SV_60\Waveform_60_01.csv'  # path to the selected inlet flowwaveform .csv file
