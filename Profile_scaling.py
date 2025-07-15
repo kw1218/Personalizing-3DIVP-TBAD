@@ -25,7 +25,7 @@ time_intp_options = {
 
 Number = 20 #### Adjust this number [0-29] to ensure the same SDR between profile and synthetic flowwaveform ####
 
-Name = 'test'  # name of the patient
+Name = 'Test'  # name of the patient
 patient_specific_4D = True   # True: point by point scaling; False: general scaling
 preprocDir = r'D:/mapped' # Path to mapped .vtp files from inlet_mapping.py
 csv_path = r'D:\SV_60\Waveform_60_01.csv'  # path to the selected inlet flowwaveform .csv file
