@@ -11,8 +11,8 @@ from scipy import interpolate
 from scipy.interpolate import RBFInterpolator, NearestNDInterpolator
 from scipy.spatial import distance
 import pyvista as pv
-import vtk
-from vmtk import vmtkscripts
+#import vtk
+
 
 
 
